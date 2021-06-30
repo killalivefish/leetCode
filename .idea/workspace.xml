@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15d364e9-2fdb-423a-afb0-952b068a1d5f" name="Default Changelist" comment="" />
+    <list default="true" id="15d364e9-2fdb-423a-afb0-952b068a1d5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RainBow/mechain/Remark.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,6 +38,7 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1uRQDxv3zHy4QP6pdKmn2ajij9m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -147,7 +154,8 @@
       <workItem from="1624770943987" duration="1865000" />
       <workItem from="1624880516478" duration="3766000" />
       <workItem from="1624935466240" duration="2763000" />
-      <workItem from="1624955694310" duration="2692000" />
+      <workItem from="1624955694310" duration="3289000" />
+      <workItem from="1625043399035" duration="184000" />
     </task>
     <servers />
   </component>
@@ -155,21 +163,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="235" key="GridCell.Tab.0.bottom" timestamp="1624957052255">
+    <state width="1322" height="234" key="GridCell.Tab.0.bottom" timestamp="1624979523658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624957052255" />
-    <state width="1322" height="235" key="GridCell.Tab.0.center" timestamp="1624957052254">
+    <state width="1322" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624979523658" />
+    <state width="1322" height="234" key="GridCell.Tab.0.center" timestamp="1624979523658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="235" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624957052254" />
-    <state width="1322" height="235" key="GridCell.Tab.0.left" timestamp="1624957052254">
+    <state width="1322" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624979523658" />
+    <state width="1322" height="234" key="GridCell.Tab.0.left" timestamp="1624979523658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="235" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624957052254" />
-    <state width="1322" height="235" key="GridCell.Tab.0.right" timestamp="1624957052255">
+    <state width="1322" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624979523658" />
+    <state width="1322" height="234" key="GridCell.Tab.0.right" timestamp="1624979523658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="235" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624957052255" />
+    <state width="1322" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624979523658" />
   </component>
 </project>
