@@ -22,17 +22,17 @@ public class MyStack {
     }
 
     /** Removes the element on top of the stack and returns that element. */
-    public int pop() {
+ /*   public int pop() {
 //        data.poll()
     }
 
-    /** Get the top element. */
+    *//** Get the top element. *//*
     public int top() {
 
     }
 
-    /** Returns whether the stack is empty. */
+    *//** Returns whether the stack is empty. *//*
     public boolean empty() {
 
-    }
+    }*/
 }
