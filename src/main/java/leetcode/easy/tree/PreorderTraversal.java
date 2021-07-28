@@ -11,12 +11,12 @@ public class PreorderTraversal {
     }
 
     private void addChild(TreeNode node,List<Integer> result){
-        result.add(node.getVal());
-        if(node.getLeft()!=null){
-            addChild(node.getLeft(),result);
+        result.add(node.val);
+        if(node.left!=null){
+            addChild(node.left,result);
         }
-        if(node.getRight() !=null){
-            addChild(node.getRight(),result);
+        if(node.right !=null){
+            addChild(node.right,result);
         }
     }
 }
