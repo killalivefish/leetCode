@@ -1,18 +1,19 @@
 package leetcode.easy.stack;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
+//TODO
 public class Preorder {
     public List<Integer> preorder(Node root) {
         List<Integer> result = new ArrayList<>();
-        Node node = root;
-        while(node != null){
-            if(node.children!=null){
-                for (Node child : node.children) {
-//                    child.val;
-//                    child.children;
-                }
+        LinkedList<Node> stack = new LinkedList();
+        stack.push(root);
+        if(!stack.isEmpty()){
+            Node node = stack.pollLast();
+            result.add(node.val);
+            Collections.reverse(node.children);
+            for (Node child : root.children) {
+                stack.push(child);
             }
         }
 
