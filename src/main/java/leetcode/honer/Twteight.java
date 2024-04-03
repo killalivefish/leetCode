@@ -6,7 +6,7 @@ import java.util.Scanner;
 //        有一种兔子，从出生后第3个月起每个月都生一只兔子，小兔子长到第三个月后每个月又生一只兔子。
 //        例子：假设一只兔子第3个月出生，那么它第5个月开始会每个月生一只兔子。
 //        一月的时候有一只兔子，假如兔子都不死，问第n个月的兔子总数为多少？
-
+//https://www.nowcoder.com/practice/1221ec77125d4370833fd3ad5ba72395
 public class Twteight {
 
 //    REMBER
@@ -31,5 +31,12 @@ public class Twteight {
             }
             System.out.println(twoMon+oneMon+add);
         }
+    }
+    
+    public static int f(int n){
+        if(n==1 || n==2){
+            return 1;
+        }
+        return f(n-1)+f(n-2);
     }
 }

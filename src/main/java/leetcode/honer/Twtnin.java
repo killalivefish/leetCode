@@ -12,7 +12,7 @@ public class Twtnin {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         double height = in.nextInt();
-    
+        
         System.out.println(height+(height/2)*2+(height/4)*2+(height/8)*2+(height/16)*2);
         System.out.println(height/32);
     }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //27.完善核心代码 语言限制 【40分】 标题：二进制插入 | 时间限制：3秒 | 内存限制：32768K
 //        给定两个32位整数n和m，同时给定i和j，将m的二进制数位插入到n的二进制的第j到第i位,保证n的第j到第i位均为零，且m的二进制位数小于等于i-j+1，其中二进制的位数从0开始由低到高。
-//
+//https://www.nowcoder.com/questionTerminal/30c1674ad5694b3f8f0bc2de6f005490?answerType=1&f=discussion
 public class TwtSeven {
 //    REMBER
     public static void main(String[] args) {

@@ -10,18 +10,17 @@ import java.util.Scanner;
 public class Eleve {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String a = in.nextLine();
-        char[] array = a.toCharArray();
-        int aimInt = array.length/2;
-        Map<Character,Integer> map = new HashMap<>();
-        for (char c : array) {
-            map.put(c,map.getOrDefault(c,0)+1);
-        }
-        for (Map.Entry<Character, Integer> curEntry : map.entrySet()) {
-            if(curEntry.getValue() >= aimInt){
-                System.out.println(curEntry.getKey());
-                break;
+        // 注意 hasNext 和 hasNextLine 的区别
+        while (in.hasNextInt()) { // 注意 while 处理多个 case
+            int a = in.nextInt();
+            int b = in.nextInt();
+            for(int i=Math.max(a,b);i<=a*b;i++){
+                if(i%a== 0 && i%b==0){
+                    System.out.print(i);
+                    break;
+                }
             }
         }
+        in.close();
     }
 }

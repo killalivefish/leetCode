@@ -10,6 +10,7 @@ import java.util.Scanner;
 //7.【40分】 标题：排成一条线的纸牌博弈问题 | 时间限制：2秒 | 内存限制：262144K
 //        给定一个整型数组arr，代表数值不同的纸牌排成一条线，玩家A和玩家B依次拿走每张纸牌，规定玩家A先拿，玩家B后拿，但是每个玩家每次只能拿走最左和最右的纸牌，玩家A和玩家B绝顶聪明。请返回最后的获胜者的分数。
 //https://www.nowcoder.com/practice/7036f62c64ba4104a28deee98a6f53f6?tpId=182&tqId=34746&ru=/exam/oj
+//https://www.nowcoder.com/practice/19c98d950b3347d19f991d10bde12288
 public class Seven {
     // REMBER
     public static void main(String[] args) {

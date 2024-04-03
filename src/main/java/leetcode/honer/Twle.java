@@ -17,7 +17,7 @@ import java.util.Stack;
 //12.完善核心代码 语言限制 【40分】 标题：找到搜索二叉树中两个错误的节点 | 时间限制：2秒 | 内存限制：262144K
 //        一棵二叉树原本是搜索二叉树，但是其中有两个节点调换了位置，使得这棵二叉树不再是搜索二叉树，请按升序输出这两个错误节点的值。(每个节点的值各不相同)
 //        搜索二叉树：满足每个节点的左子节点小于当前节点，右子节点大于当前节点。
-
+//https://www.nowcoder.com/practice/4582efa5ffe949cc80c136eeb78795d6?tpId=196&tqId=37154&ru=/exam/oj
 public class Twle {
     
     public static void main(String[] args) {
